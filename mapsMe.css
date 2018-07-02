@@ -1,0 +1,361 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    margin:0;
+}
+
+h1 {
+    color: black;
+    font-family: 'black han sans', sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+p {
+    color: black;
+    font-family: 'roboto', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-family: 'black han sans', sans-serif;
+}
+
+.quoteCeo {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 2em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.mainmenu {
+    background-color: black;
+    opacity: 0.7;
+    overflow: hidden;
+    z-index: 20;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+}
+.logoimg{
+    background-image: url(./logo.png);
+    background-size: 134px;
+    background-repeat: no-repeat;
+    width: 144px;
+    height: 58px;
+    background-position-y: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 9px 12px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.button {
+    background: green;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0px 11px 0px 11px;
+    text-decoration: none;
+    float: right;
+    margin-top: 4px;
+    margin-right: 10px;
+    height: 32px;
+    width: 158px;
+
+  }
+  
+  .button:hover {
+    background: blue;
+    background-image: blue;
+    text-decoration: none;
+  }
+
+  .btn.btn-default.btn-lg.downloadButton{
+    background: green;
+    border-radius: 28px;
+    color: #ffffff;
+    margin-top: 10px;
+
+
+}
+
+  .download{
+text-align: center;
+position: relative;
+top: 27%;
+  }
+
+  .ios{
+      margin-bottom: 10px;
+  }
+
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+.mainText{
+text-align: center;
+white-space:nowrap;
+}
+
+.btn.btn-primary.active.myButton {
+    transform: translateY(25%);
+    width: 120%;
+    border-radius: 25px;
+    background-color: green;
+}
+
+.btn.btn-primary.btn-lg.btn-block.joinUs {
+    border-radius: 25px;
+    background-color: green;
+    margin-top: 25px;
+
+}
+
+
+.jumbotron {
+    background-image: url("./pictures/background-home.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    height: 120vh;
+
+}
+
+.assets img {
+    height: 50vh;
+    margin-top: 30px;
+    width:auto;
+}
+
+
+.quotebox{
+    padding: 30px;
+    background: #fafafa;
+}
+.ceo img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.centerPhone{
+    text-align: center;
+}
+.picture img{
+    border-radius: 75px;
+    width: 100%;
+}
+
+.fixed-nav {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    border: none;
+    padding: 0 15px;
+    z-index: 500;
+}
+.community{
+    margin-top: 30px;
+}
+
+.mapathonOk{
+    background: #fafafa;
+    height: auto;
+    margin-bottom: 30px;
+padding: 30px;
+padding-top: 0;
+}
+
+.mapathonpic{
+    background:url("./pictures/backmap.jpg");
+    height: 345px;
+border-radius: 75px;
+background-size: cover;
+}
+
+.bigButton{
+    font-size:18px;
+    border-radius: 30px;
+    
+}
+
+.rightbox{
+    margin-top:10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    line-height: 2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+
+}
+
+#myFooter {
+    background-color:lightgrey;
+    background-image:url();
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    border-top: green solid 1px;
+    opacity:0.8;
+}
+
+
+
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+	font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a{
+	color:black;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:black;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 38px;
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: green;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+	color:#0077e2;
+}
+
+#myFooter .google:hover{
+	color:#ef1a1a;
+}
+
+#myFooter .twitter:hover{
+	color: #00aced;
+}
+
+
+.content{
+	flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	min-height: 200px;
+}
+
+#myFooter{
+	flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+
+.final{
+    background-color:lightgrey;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity:0.8;
+    margin: 0;
+    
+}
+
+.txt{
+    font-family: 'roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 144px;
+    font-weight: 800;
+    display: none;
+}
+.square:hover p{
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 144px;
+    font-weight: 800; 
+    display:block;
+    z-index: 4;
+
+}
+.square img{
+    width:300px; 
+    height:250px; 
+}
+.img1:hover{
+    opacity: 0.5;
+}
+.img2:hover{
+    opacity: 0.5;
+}
+.img3:hover{
+    opacity: 0.5;
+}
+
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
